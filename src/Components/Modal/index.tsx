@@ -10,7 +10,7 @@ interface ModalProps{
                 <div className="modal-background" onClick={onClose}></div>
                 <div className="modal-content">
                         {children}
-                        <button onClick={onClose}> Close</button>
+                        <button className='close' onClick={onClose}> Close</button>
                 </div>
             </>
         )

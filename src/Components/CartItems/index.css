@@ -1,0 +1,12 @@
+.remove{
+ text-align: 'center';
+}
+div{
+    display: 'flex';
+    justify-content: 'center';
+    align-items: 'center';
+    height: '100%';
+}
+table,th,td{
+    border: 1px solid #6d6d6d;
+}

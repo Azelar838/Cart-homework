@@ -39,8 +39,8 @@ header .cart {
     gap:1rem;
 }
 header .cart #added-items{
-    height: 1.5rem;
-    width: 1.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
     background-color: white;
     border-radius: 50%;
     color:black

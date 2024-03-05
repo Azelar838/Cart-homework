@@ -6,6 +6,9 @@ import { RootState } from '../../data/store'
 import { useSelector } from 'react-redux'
 import { useState } from 'react'
 import Modal from '../Modal'
+import CartItems from '../CartItems'
+
+
 
 export default function Header(){
     const {coursesData}=useSelector((state:RootState)=> state.courses)
@@ -36,9 +39,11 @@ export default function Header(){
         {
             isModalOpen && (
                 <Modal onClose={()=> setIsModalOpen(false)}>
-                        <h1>Hello from popup</h1>
+                    <h1>Cart Items Info</h1>
+                    <CartItems/> 
                 </Modal>
             )
+            
         }
         </header>
     )

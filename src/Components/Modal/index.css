@@ -11,6 +11,11 @@
 
 
 .modal-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
     background-color: white;
     position:fixed;
     width: 50%;
@@ -21,4 +26,20 @@
     z-index: 1000;
     overflow: hidden;
     color:black;
+    border-radius: 15px;
+    box-shadow: 0 10px 10px rgba(8, 0, 0, 0.918);
+}
+.close{
+    width: 10rem;
+    height: 4rem;
+    background-color:#8f8f8f;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.close:hover{
+    cursor: pointer;
+    background-color: #a30000;
 }
